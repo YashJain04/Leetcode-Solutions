@@ -9,7 +9,7 @@ class Solution {
 
         else {
             for (int i = 0; i < array.length; i++) {
-                if (array[i] == array[array.length - (i + 1)]) continue;
+                if (array[i] == array[array.length -  1 - i]) continue;
                 else return false;
             }
         }
